@@ -1,0 +1,112 @@
+
+/* Fonts */
+
+@import url("../fonts/nanumgothic.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+
+/* Global Things */
+
+html
+{
+	width: 100%;
+	font-size: 16px;
+}
+
+body
+{
+        background-image:url(../img/Dark-down.svg);
+        font-family: 'Nanum Gothic', serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0 auto;
+}
+
+
+pre {
+  font-size: 1.25em;
+  color: #ddd;
+  background: #0d152a;
+  margin: 1em 0;
+  padding: 1em 20px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+code {
+  font-family: Consolas, Courier New, monospace;
+}
+
+.button
+{
+    box-sizing: inherit; 
+    margin: 0px 0px 0px 12px; 
+    padding: 5px 8px; 
+    border-radius: 2px; 
+    border-width: initial; 
+    border-style: none; 
+    border-color: initial; 
+    outline: none; cursor: 
+    pointer; 
+    text-transform: uppercase; 
+    font-size: 11px; 
+    color: rgb(255, 255, 255); 
+    background: rgba(179, 231, 37, 0.6); 
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -2px; 
+    transition: all 0.1s ease-out;
+}
+
+#wrapper{max-width:1024px;margin:0 auto;padding:0px}
+
+#content{
+        position: relative;
+        height: auto;
+        font-size: 16px;
+        max-width: 1024px;
+        padding:0 30px;
+        overflow: hidden;
+        text-align: justify;
+        background: rgb(35, 35, 35);
+        margin: 0px auto;
+
+}
+h2, h1{ 
+        font-family: 'Press Start 2P', cursive;
+        font-size: 30px;
+        text-align:center;
+            
+            ;}
+
+#panerl{text-align:left;}
+#footer{text-align:center;}
+
+main-menu{margin-bottom:4px}
+
+    .main-menu__list
+        {
+            display:-webkit-flex;
+            display:-ms-flexbox;
+            display:flex;
+            -webkit-align-items:center;
+            align-items:center;
+            height: 45px;
+            padding-left: 0px;
+            list-style:none;
+            text-align:center
+        }
+
+            .main-menu__item{-webkit-flex-grow:1;flex-grow:1;padding:0}
+            .main-menu__item:first-of-type{border-top-left-radius:14px}
+            .main-menu__item:first-of-type{background:#894545}
+            .main-menu__item:nth-of-type(2){background:#8d5629}
+            .main-menu__item:nth-of-type(3){background:#8d7f20}
+            .main-menu__item:nth-of-type(4){background:#678120}
+            .main-menu__item:nth-of-type(5){background:#276f29}
+            .main-menu__item:nth-of-type(6){background:#267c57}
+            .main-menu__item:nth-of-type(7){background:#398787}
+            .main-menu__item:nth-of-type(8){background:#2d6180}
+            .main-menu__item:nth-of-type(9){background:#27346a}
+            .main-menu__item:nth-of-type(10){border-top-right-radius:14px}
+            .main-menu__item:nth-of-type(10){background:#572f71}
+
+.main-menu a{text-transform:uppercase:display:block;width:120%;height:60px;line-height:40px;text-transform:uppercase;color:#FFF;font-size:14px;font-weight:auto;transition:none;text-decoration:none;display:block;}

@@ -1,0 +1,167 @@
+/* ---- reset ---- */ 
+
+body
+    { 
+        margin:0; 
+        font:normal 75% Arial, Helvetica, sans-serif; 
+    } 
+canvas
+    { 
+        display: block; 
+        vertical-align: bottom; 
+    } 
+
+/* ---- particles.js container ---- */ 
+
+#particles-js
+{ 
+    position:absolute; width: 100%; height: 100%; 
+    background-color: #1a1a1a; 
+    background-image: url(""); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 50% 50%; 
+} 
+
+/* ---- stats.js ---- */ 
+
+.count-particles
+{ 
+    background: #000022; 
+    position: absolute; 
+    top: 48px; 
+    left: 0; 
+    width: 80px; 
+    color: #13E8E9; 
+    font-size: .8em; 
+    text-align: left; 
+    text-indent: 4px; 
+    line-height: 14px; 
+    padding-bottom: 2px; 
+    font-family: Helvetica, Arial, sans-serif; font-weight: bold; 
+} 
+.js-count-particles
+{ 
+    font-size: 1.1em; } 
+#stats, .count-particles
+{ 
+    -webkit-user-select: none; 
+    margin-top: 5px; margin-left: 5px; 
+} 
+
+#stats
+{ 
+    border-radius: 3px 3px 0 0; 
+    overflow: hidden; } 
+.count-particles
+{ 
+    border-radius: 0 0 3px 3px; }
+
+/* ---- particles.js CSS END ---- */ 
+
+        .staticrypt-hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-top: 1px solid #eee;
+        }
+
+        .staticrypt-page {
+            width: 360px;
+            padding: 10% 0 0;
+            margin: auto;
+            box-sizing: border-box;
+        }
+
+        .staticrypt-form {
+            position: relative;
+            z-index: 1;
+            background: rgb(35, 35, 35);
+            max-width: 500px;
+            margin: 0 auto 100px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        }
+
+        .staticrypt-form input {
+            outline: 0;
+            background: #f2f2f2;
+            width: 100%;
+            border: 0;
+            margin: 0 0 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        .staticrypt-form .staticrypt-decrypt-button {
+            text-transform: uppercase;
+            outline: 0;
+            background: #33691e;
+            width: 100%;
+            border: 0;
+            padding: 15px;
+            color: #FFFFFF;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .staticrypt-form .staticrypt-decrypt-button:hover, .staticrypt-form .staticrypt-decrypt-button:active, .staticrypt-form .staticrypt-decrypt-button:focus {
+            background: #33691e;
+        }
+
+        .staticrypt-html {
+            height: 100%;
+        }
+
+        .staticrypt-body {
+            margin-bottom: 1em;
+            background: #76b852; /* fallback for old browsers */
+            background: -webkit-linear-gradient(right, #1A1A1A, #1A1A1A);
+            background: -moz-linear-gradient(right, #1A1A1A, #1A1A1A);
+            background: -o-linear-gradient(right, #1A1A1A, #1A1A1A);
+            background: linear-gradient(to left, #1A1A1A, #1A1A1A);
+            font-family: "Arial", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .staticrypt-instructions {
+            margin-top: -1em;
+            margin-bottom: 1em;
+        }
+
+        .staticrypt-title {
+            color: #FFF;
+            font-size: 1.5em;
+        }
+        .staticrypt-msg {
+            color: #FFF;
+            font-size: 1.1em;
+        }
+        .staticrypt-msg-foot {
+            color: #FFF;
+            font-size: 1.0em;
+        }    
+
+        .staticrypt-footer {
+            position: fixed;
+            height: 20px;
+            font-size: 16px;
+            padding: 2px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin-bottom: 0;
+        }
+
+        .staticrypt-footer p {
+            margin: 2px;
+            text-align: center;
+            float: right;
+        }
+
+        .staticrypt-footer a {
+            text-decoration: none;
+        }
