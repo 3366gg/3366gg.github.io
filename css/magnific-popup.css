@@ -1,5 +1,17 @@
 /* Styles for dialog window */
 
+#sha1-win7sp1-fix-update
+{
+  background-color: #1A1A1A;
+  color: #FFF;
+  font-family: 'Nanum Gothic', serif;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 200px;
+  margin: 40px auto;
+  position: relative;
+}
+
 #popup-environment-variable
 {
   background-color: #1A1A1A;
