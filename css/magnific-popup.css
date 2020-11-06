@@ -1,5 +1,41 @@
 /* Styles for dialog window */
 
+#google-meets-camera
+{
+  background-color: #1A1A1A;
+  color: #FFF;
+  font-family: 'Nanum Gothic', serif;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 450px;
+  margin: 40px auto;
+  position: relative;
+}
+
+#bluetooh-device-remove-failed
+{
+  background-color: #1A1A1A;
+  color: #FFF;
+  font-family: 'Nanum Gothic', serif;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 750px;
+  margin: 60px auto;
+  position: relative;
+}
+
+#iros-card-error /* [어도비 리더 '이미 최신버전이 설치되었습니다' 오류] popup CSS */
+{
+  background-color: #1A1A1A;
+  color: #FFF;
+  font-family: 'Nanum Gothic', serif;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 400px;
+  margin: 40px auto;
+  position: relative;
+}
+
 #sha1-win7sp1-fix-update
 {
   background-color: #1A1A1A;
@@ -44,7 +80,7 @@
   font-family: 'Nanum Gothic', serif;
   padding: 20px 30px;
   text-align: left;
-  max-width: 600px;
+  max-width: 700px;
   margin: 40px auto;
   position: relative;
 }
