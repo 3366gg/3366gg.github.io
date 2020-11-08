@@ -1,4 +1,16 @@
 /* Styles for dialog window */
+#adobe-webbrowser-pdf-print
+{
+  background-color: #1A1A1A;
+  color: #FFF;
+  font-family: 'Nanum Gothic', serif;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 450px;
+  margin: 40px auto;
+  position: relative;
+}
+
 
 #google-meets-camera
 {
