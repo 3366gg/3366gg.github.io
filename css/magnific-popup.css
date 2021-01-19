@@ -1,4 +1,16 @@
 /* Styles for dialog window */
+#prerequisite-updates-for-ie-11
+{
+  background-color: #1A1A1A;
+  color: #FFF;
+  font-family: 'Nanum Gothic', serif;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 350px;
+  margin: 40px auto;
+  position: relative;
+}
+
 #keylayout-101AKEY-default
 {
   background-color: #1A1A1A;
