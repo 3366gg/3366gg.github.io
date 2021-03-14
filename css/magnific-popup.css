@@ -1,4 +1,28 @@
 /* Styles for dialog window */
+#remove-external-files
+{
+  background-color: #1A1A1A;
+  color: #FFF;
+  font-family: 'Nanum Gothic', serif;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 450px;
+  margin: 40px auto;
+  position: relative;
+}
+
+#win10-wallpapers-renew
+{
+  background-color: #1A1A1A;
+  color: #FFF;
+  font-family: 'Nanum Gothic', serif;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 1100px;
+  margin: 40px auto;
+  position: relative;
+}
+
 #prerequisite-updates-for-ie-11
 {
   background-color: #1A1A1A;
